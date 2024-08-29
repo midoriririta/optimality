@@ -1,0 +1,1 @@
+{"1.192517916": "", "1.4014923750000001": "faculty(V0):- project(V1,V0).", "15.115434166": "faculty(V0):- project(V1,V0).\nfaculty(V0):- courseprof(V1,V0)."}

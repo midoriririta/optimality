@@ -1,0 +1,1 @@
+{"1.2508423749999995": "", "6.182367583000001": "f(V0,V1):- movie(V4,V1),movie(V4,V0),genre(V0,V3),genre(V2,V3),gender(V2,V5).", "8.700316874999999": "f(V0,V1):- director(V0),movie(V2,V0),movie(V2,V1).", "8.818186375": "f(V0,V1):- gender(V1,V3),gender(V0,V3),movie(V2,V0),movie(V2,V1)."}

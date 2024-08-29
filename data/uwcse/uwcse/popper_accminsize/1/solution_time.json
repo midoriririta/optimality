@@ -1,0 +1,1 @@
+{"12.529714375000001": "", "13.583245000000002": "advisedBy(V0,V1):- ta(V2,V0,V3),taughtBy(V2,V1,V3),publication(V4,V0).", "16.719357917": "advisedBy(V0,V1):- ta(V2,V0,V3),taughtBy(V2,V1,V3),publication(V4,V1),publication(V4,V0)."}

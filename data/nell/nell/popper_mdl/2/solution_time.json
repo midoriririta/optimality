@@ -1,0 +1,1 @@
+{"3.1677776250000003": "", "3.3125736659999996": "teamplayssport(V0,V1):- plays(V1,V2),teamplaysagainstteam(V2,V0).", "3.316572666": "teamplayssport(V0,V1):- plays(V1,V2),teamplaysagainstteam(V0,V2).", "4.453794458": "teamplayssport(V0,V1):- teamplaysinleague(V0,V3),plays(V1,V2),teamplaysinleague(V2,V3)."}

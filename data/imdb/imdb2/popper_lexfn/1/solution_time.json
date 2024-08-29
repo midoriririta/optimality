@@ -1,0 +1,1 @@
+{"0.6943993749999997": "", "0.767672417": "f(V0,V1):- gender(V1,V5),gender(V0,V5),gender(V4,V5),gender(V2,V5),gender(V3,V5).", "1.5314965419999993": "f(V0,V1):- gender(V0,V5),gender(V1,V3),movie(V4,V1),movie(V4,V0),gender(V2,V5).", "12.673147708": "f(V0,V1):- gender(V0,V3),gender(V1,V3),movie(V4,V0),movie(V2,V0),movie(V2,V1)."}

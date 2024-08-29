@@ -1,0 +1,1 @@
+{"0": "", "92": "f(V0,V1):- gender(V0,V5),movie(V4,V0),movie(V4,V1),genre(V1,V3),movie(V4,V2).", "1097": "f(V0,V1):- gender(V1,V2),gender(V0,V2),movie(V3,V1),movie(V3,V0).", "2041": "f(V0,V1):- gender(V1,V2),gender(V0,V2),movie(V3,V1),movie(V3,V0).\nf(V0,V1):- director(V1),gender(V0,V2),movie(V3,V1),movie(V3,V0)."}
