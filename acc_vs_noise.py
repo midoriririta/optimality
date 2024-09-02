@@ -78,30 +78,49 @@ def load_data(domain, noise_levels, prefixes):
         all_data.append(data)
     return all_data
 
-def calculate_accuracy_differences(data_list):
-
-    diff_data_list = []
-
-    for stats in data_list:
-        diff_data = calculate_accuracy_difference(stats)
-        diff_data_list.append(diff_data)
-
-    return diff_data_list
-
-def calculate_accuracy_difference(stats):
-
+def calculate_accuracy_difference(domain, tasks):
     accuracy_diff = {}
-    stats = stats[0]
-    for sys in stats:
-        accuracy_diff[sys] = {}
-        for task in stats[sys]:
-            print(task)
-            accuracies = stats[sys][task]['acc_av']  # List of accuracy averages for different timeout values
-            max_accuracy = max(accuracies)
-            last_accuracy = accuracies[-1]
-            accuracy_diff[sys][task] = max_accuracy - last_accuracy
 
+    for sys in SYSTEMS:
+        accuracy_diff[sys] = {}
+        for task in tasks:
+            accuracies = []
+
+            for trial in TRIALS:
+                output_path = os.path.join('/content/drive/MyDrive/popper/plot_timeout/experimental_data', domain, f'{task}', sys, str(trial), "nprogs")
+                if not os.path.exists(output_path):
+                    continue
+                
+                dirs = os.listdir(output_path)
+                n_progs = sorted([int(d.split(".")[0]) for d in dirs if not d.startswith('.')])
+                
+                # Read all accuracy values from the files corresponding to the generated programs
+                for prog in n_progs:
+                    acc = read_results(os.path.join(output_path, f"{prog}.pl"))
+                    accuracies.append(acc)
+
+            # Calculate the max and last accuracies
+            if accuracies:
+                max_accuracy = max(accuracies)
+                last_accuracy = accuracies[-1]
+                accuracy_diff[sys][task] = max_accuracy - last_accuracy
+            else:
+                accuracy_diff[sys][task] = None  # Handle cases where there are no accuracies
+    print(accuracy_diff)
     return accuracy_diff
+
+
+def diff_task(domain, noise_levels, prefixes):
+    
+    for noise_level in noise_levels:
+        tasks = [f"{prefix}__{noise_level}" for prefix in prefixes]
+        calculate_accuracy_difference(domain,tasks)
+
+
+
+data_0_diff = diff_task('zendo', ['0'], ['zendo1', 'zendo2', 'zendo3', 'zendo4'])
+data_1_diff = diff_task('zendo_noise', ['0.1'], ['zendo1', 'zendo2', 'zendo3', 'zendo4'])
+data_2_diff = diff_task('zendo_noise', ['0.2'], ['zendo1', 'zendo2', 'zendo3', 'zendo4'])
 
 import matplotlib.pyplot as plt
 
@@ -143,7 +162,9 @@ SYSTEMS = ['popper_acc', 'popper_accminsize', 'popper_lexfn', 'popper_lexfnsize'
 data_0 = load_data('zendo', ['0'], ['zendo1', 'zendo2', 'zendo3', 'zendo4'])
 data_1 = load_data('zendo_noise', ['0.1'], ['zendo1', 'zendo2', 'zendo3', 'zendo4'])
 data_2 = load_data('zendo_noise', ['0.2'], ['zendo1', 'zendo2', 'zendo3', 'zendo4'])
-data_0_diff, data_1_diff, data_2_diff = calculate_accuracy_differences([data_0, data_1, data_2])
+data_0_diff = diff_task('zendo', ['0'], ['zendo1', 'zendo2', 'zendo3', 'zendo4'])
+data_1_diff = diff_task('zendo_noise', ['0.1'], ['zendo1', 'zendo2', 'zendo3', 'zendo4'])
+data_2_diff = diff_task('zendo_noise', ['0.2'], ['zendo1', 'zendo2', 'zendo3', 'zendo4'])
 #print(data_0_diff['popper_acc'])
 plot_average_diff(data_0_diff, data_1_diff, data_2_diff, SYSTEMS)
 
