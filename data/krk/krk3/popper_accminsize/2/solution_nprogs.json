@@ -1,0 +1,1 @@
+{"0": "", "8": "f(V0):- king(V2),cell(V0,V1,V3,V2).", "9": "f(V0):- rook(V2),cell(V0,V1,V3,V2).", "68": "f(V0):- king(V2),white(V1),cell(V0,V3,V1,V2).", "69": "f(V0):- rook(V2),white(V1),cell(V0,V3,V1,V2).", "375": "f(V0):- king(V1),rook(V4),white(V6),cell(V0,V5,V6,V4),cell(V0,V3,V2,V1).", "401": "f(V0):- king(V1),rook(V4),white(V2),cell(V0,V5,V2,V4),cell(V0,V3,V2,V1)."}

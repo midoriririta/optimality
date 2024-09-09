@@ -1,0 +1,1 @@
+{"30.700319125": "", "31.797302834": "f(V0):- white(V1),king(V5),black(V4),cell(V0,V2,V4,V5),cell(V0,V3,V1,V5),nextrank(V2,V3).", "53.851009708999996": "f(V0):- king(V6),cell(V0,V4,V2,V6),nextrank(V1,V4),cell(V0,V1,V3,V5).", "245.731022792": "f(V0):- king(V6),cell(V0,V4,V2,V6),nextrank(V1,V4),cell(V0,V1,V3,V5)."}

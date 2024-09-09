@@ -1,0 +1,1 @@
+{"31.044015833": "", "31.613253750000002": "f(V0):- rook(V2),cell(V0,V3,V1,V2).", "32.418738250000004": "f(V0):- rook(V1),white(V3),cell(V0,V2,V3,V1).", "33.528425541999994": "f(V0):- one(V6),distance(V2,V5,V6),cell(V0,V5,V3,V4),cell(V0,V2,V3,V1).", "38.295320708000006": "f(V0):- one(V6),king(V4),distance(V1,V5,V6),cell(V0,V5,V3,V4),cell(V0,V1,V3,V2)."}
