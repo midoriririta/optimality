@@ -1,0 +1,1 @@
+{"0": "", "1": "label(V0):- atom(V1,V0,V2).", "165": "label(V0):- h(V3),atom(V4,V0,V3),atom(V1,V0,V2).\nlabel(V0):- o(V4),atom(V1,V0,V4),atom(V3,V0,V2).\nlabel(V0):- cl(V4),atom(V3,V0,V4),atom(V2,V0,V1).\nlabel(V0):- f(V4),atom(V2,V0,V4),atom(V1,V0,V4),atom(V3,V0,V4)."}

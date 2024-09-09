@@ -1,0 +1,1 @@
+{"0": "", "10": "label(V0):- hash(V1),bond(V2,V0,V1).", "29": "label(V0):- br(V1),atom(V2,V0,V1).", "210": "label(V0):- br(V1),atom(V2,V0,V1).\nlabel(V0):- hash(V1),bond(V2,V0,V1).\nlabel(V0):- zn(V1),atom(V2,V0,V1).\nlabel(V0):- n(V4),atom(V3,V0,V4),connected(V3,V2,V1),atom(V2,V0,V4)."}

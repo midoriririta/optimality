@@ -1,0 +1,11 @@
+label(V0):- zn(V2),atom(V1,V0,V2).
+label(V0):- hash(V1),bond(V2,V0,V1).
+label(V0):- br(V2),atom(V1,V0,V2).
+label(V0):- y(V2),atom(V1,V0,V2).
+label(V0):- cu(V2),atom(V1,V0,V2).
+label(V0):- n(V2),atom(V4,V0,V2),connected(V4,V3,V1),atom(V3,V0,V2).
+label(V0):- o(V2),br(V1),atom(V4,V0,V2),atom(V3,V0,V1).
+label(V0):- cl(V1),br(V2),atom(V4,V0,V2),atom(V3,V0,V1).
+label(V0):- p(V2),br(V1),atom(V4,V0,V2),atom(V3,V0,V1).
+label(V0):- na(V2),br(V1),atom(V4,V0,V2),atom(V3,V0,V1).
+accuracy: 57.11331679073615

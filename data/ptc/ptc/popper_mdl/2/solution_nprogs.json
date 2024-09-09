@@ -1,0 +1,1 @@
+{"0": "", "17": "label(V0):- br(V2),atom(V1,V0,V2).", "122": "label(V0):- br(V2),atom(V1,V0,V2).\nlabel(V0):- n(V1),atom(V3,V0,V1),connected(V3,V4,V2),atom(V4,V0,V1)."}

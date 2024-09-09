@@ -1,0 +1,1 @@
+{"19.620244707999998": "", "19.779831792": "label(V0):- atom(V1,V0,V2).", "44.031528125": "label(V0):- h(V1),atom(V2,V0,V1).\nlabel(V0):- o(V1),atom(V2,V0,V1).\nlabel(V0):- atom(V2,V0,V1),connected(V2,V4,V3),atom(V4,V0,V1)."}
