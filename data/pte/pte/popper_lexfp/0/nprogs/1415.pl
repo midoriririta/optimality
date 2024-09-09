@@ -1,0 +1,11 @@
+pte_active(V0):- pte_atm(V0,V2,V1,V4,V3),pte_imine(V5,V2),pte_ames(V5).
+pte_active(V0):- pte_phenol(V5,V2),pte_ketone(V5,V2),pte_ether(V5,V2),pte_atm(V0,V2,V1,V4,V3).
+pte_active(V0):- pte_alkyl_halide(V5,V2),pte_methyl(V5,V2),pte_atm(V0,V2,V1,V4,V3),pte_ames(V5).
+pte_active(V0):- pte_atm(V0,V2,V1,V4,V3),pte_sulfo(V5,V2),pte_six_ring(V5,V2),pte_ames(V5).
+pte_active(V0):- pte_ketone(V5,V2),pte_alcohol(V5,V2),pte_ester(V5,V2),pte_atm(V0,V2,V1,V4,V3).
+pte_active(V0):- pte_methyl(V5,V2),pte_amine(V5,V2),pte_ames(V5),pte_mutagenic(V5),pte_atm(V0,V2,V1,V4,V3).
+pte_active(V0):- pte_five_ring(V5,V2),pte_methyl(V5,V2),pte_ames(V5),pte_non_ar_hetero_5_ring(V5,V2),pte_atm(V0,V2,V1,V4,V3).
+pte_active(V0):- pte_amine(V5,V2),pte_ames(V5),pte_non_ar_hetero_6_ring(V5,V2),pte_six_ring(V5,V2),pte_atm(V0,V2,V1,V4,V3).
+pte_active(V0):- pte_five_ring(V5,V2),pte_ames(V5),pte_non_ar_hetero_5_ring(V5,V2),pte_ketone(V5,V2),pte_six_ring(V5,V2),pte_non_ar_6c_ring(V5,V2),pte_atm(V0,V2,V1,V4,V3).
+pte_active(V0):- pte_phenol(V5,V2),pte_ether(V5,V2),pte_ames(V5),pte_six_ring(V5,V2),pte_mutagenic(V5),pte_non_ar_6c_ring(V5,V2),pte_atm(V0,V2,V1,V4,V3).
+accuracy: 59.09090909090909
