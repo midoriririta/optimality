@@ -1,0 +1,1 @@
+{"0": "", "2": "affects(V0,V1):- process_of(V0,V1).", "6852": "affects(V0,V1):- indicates(V2,V1),evaluation_of(V2,V1),measurement_of(V2,V0)."}

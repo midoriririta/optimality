@@ -1,0 +1,1 @@
+{"30.570480665999998": "", "30.682939666": "affects(V0,V1):- process_of(V0,V1).", "33.793759333": "affects(V0,V1):- process_of(V2,V1),process_of(V0,V2).", "36.345977083": "affects(V0,V1):- indicates(V2,V1),measurement_of(V2,V0),evaluation_of(V2,V1)."}

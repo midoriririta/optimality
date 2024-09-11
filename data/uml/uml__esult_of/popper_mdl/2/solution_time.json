@@ -1,0 +1,1 @@
+{"30.583391792": "", "30.698997499999997": "esult_of(V0,V1):- complicates(V0,V1).", "30.705742207999997": "esult_of(V0,V1):- process_of(V0,V1).", "30.734489499999995": "esult_of(V0,V1):- affects(V1,V0).", "31.723574": "esult_of(V0,V1):- indicates(V2,V1),manifestation_of(V2,V0)."}

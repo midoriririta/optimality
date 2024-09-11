@@ -1,0 +1,1 @@
+{"0": "", "6": "esult_of(V0,V1):- degree_of(V1,V0).", "12": "esult_of(V0,V1):- co_occurs_with(V1,V0).", "13": "esult_of(V0,V1):- precedes(V1,V0).", "377": "esult_of(V0,V1):- affects(V1,V0),affects(V0,V1).", "1603": "esult_of(V0,V1):- indicates(V2,V1),manifestation_of(V2,V0)."}

@@ -1,0 +1,1 @@
+{"0": "", "1": "affects(V0,V1):- complicates(V0,V1).", "2": "affects(V0,V1):- process_of(V0,V1).", "3355": "affects(V0,V1):- process_of(V2,V1),process_of(V0,V2).", "3547": "affects(V0,V1):- evaluation_of(V2,V1),measurement_of(V2,V0).", "3888": "affects(V0,V1):- process_of(V2,V1),esult_of(V0,V2).", "3919": "affects(V0,V1):- process_of(V2,V1),esult_of(V2,V0)."}

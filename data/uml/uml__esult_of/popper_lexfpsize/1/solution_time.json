@@ -1,0 +1,1 @@
+{"30.589952958": "", "30.714333792": "esult_of(V0,V1):- degree_of(V1,V0).", "30.724244667000004": "esult_of(V0,V1):- co_occurs_with(V1,V0).", "30.730342083": "esult_of(V0,V1):- precedes(V1,V0).", "31.054457667000005": "esult_of(V0,V1):- affects(V1,V0),affects(V0,V1).", "32.056396792": "esult_of(V0,V1):- indicates(V2,V1),manifestation_of(V2,V0)."}
