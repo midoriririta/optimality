@@ -1,0 +1,1 @@
+{"0": "", "20": "person_(V0):- eating(V0).", "36": "person_(V0):- near(V0,V2),near(V1,V2),near(V2,V1),to_the_right_of(V1,V2).", "44": "person_(V0):- near(V0,V2),to_the_left_of(V2,V1).", "61": "person_(V0):- to_the_left_of(V1,V0)."}

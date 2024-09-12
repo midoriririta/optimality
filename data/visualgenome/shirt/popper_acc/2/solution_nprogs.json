@@ -1,0 +1,1 @@
+{"0": "", "35": "shirt_(V0):- to_the_left_of(V0,V2),to_the_right_of(V1,V2).", "283": "shirt_(V0):- blue(V0).", "7410": "shirt_(V0):- to_the_left_of(V0,V1),to_the_right_of(V1,V2),blue(V2).", "8629": "shirt_(V0):- to_the_right_of(V2,V0),person(V2),to_the_right_of(V1,V0).", "15998": "shirt_(V0):- wearing(V1,V0)."}

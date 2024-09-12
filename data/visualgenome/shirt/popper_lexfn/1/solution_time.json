@@ -1,0 +1,1 @@
+{"34.446913042000006": "", "34.906372375000004": "shirt_(V0):- gold(V2),to_the_right_of(V2,V0),to_the_left_of(V1,V2),to_the_right_of(V2,V1).", "34.916422917000006": "shirt_(V0):- to_the_right_of(V2,V0),to_the_left_of(V2,V1).", "34.92628354199999": "shirt_(V0):- to_the_right_of(V2,V0),to_the_left_of(V1,V2)."}

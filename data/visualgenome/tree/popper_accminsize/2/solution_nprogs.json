@@ -1,0 +1,1 @@
+{"0": "", "117": "tree_(V0):- tall(V0).", "298": "tree_(V0):- to_the_right_of(V0,V1).", "775": "tree_(V0):- to_the_right_of(V1,V0),person(V1).", "2201": "tree_(V0):- to_the_right_of(V0,V1),person(V1).", "4769": "tree_(V0):- to_the_right_of(V2,V0),to_the_left_of(V2,V1),street_light(V1).", "9018": "tree_(V0):- to_the_right_of(V0,V2),to_the_left_of(V1,V2),person(V1)."}

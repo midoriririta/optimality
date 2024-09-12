@@ -1,0 +1,1 @@
+{"0": "", "7": "person_(V0):- eating(V0).", "26": "person_(V0):- standing(V0).", "297": "person_(V0):- on(V0,V1).", "298": "person_(V0):- to_the_right_of(V0,V1)."}

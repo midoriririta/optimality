@@ -1,0 +1,1 @@
+{"0": "", "77": "ear_(V0):- bear(V1),to_the_left_of(V2,V1),to_the_right_of(V0,V2),to_the_right_of(V1,V2).", "605": "ear_(V0):- pink(V0).", "618": "ear_(V0):- pointy(V0).", "1870": "ear_(V0):- to_the_left_of(V2,V0),to_the_right_of(V1,V2),small(V1).", "3491": "ear_(V0):- to_the_right_of(V0,V1),to_the_right_of(V2,V1),eye(V2)."}

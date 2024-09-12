@@ -1,0 +1,1 @@
+{"0": "", "384": "tree_(V0):- on(V1,V2),to_the_right_of(V1,V0),to_the_right_of(V1,V2).", "1118": "tree_(V0):- on(V1,V2),to_the_right_of(V2,V0),to_the_right_of(V1,V0).", "4023": "tree_(V0):- to_the_right_of(V2,V0),street_light(V2),to_the_right_of(V1,V0).", "4045": "tree_(V0):- to_the_left_of(V0,V1),to_the_right_of(V2,V1),street_light(V2)."}

@@ -1,0 +1,1 @@
+{"0": "", "14": "car_(V0):- small(V0).", "37": "car_(V0):- small(V0),to_the_right_of(V0,V2),to_the_right_of(V1,V2).", "617": "car_(V0):- silver(V0).", "618": "car_(V0):- white(V0).", "620": "car_(V0):- near(V0,V1).", "634": "car_(V0):- parked(V0).", "970": "car_(V0):- to_the_left_of(V1,V0).", "2469": "car_(V0):- to_the_left_of(V0,V2),to_the_left_of(V1,V2)."}

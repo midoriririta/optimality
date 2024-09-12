@@ -1,0 +1,1 @@
+{"0": "", "199": "ear_(V0):- to_the_right_of(V1,V0),to_the_right_of(V2,V1),rock(V2).", "458": "ear_(V0):- pointy(V0).", "1756": "ear_(V0):- to_the_right_of(V0,V2),to_the_right_of(V1,V2),small(V1).", "3135": "ear_(V0):- to_the_right_of(V0,V1),to_the_right_of(V2,V1),eye(V2)."}

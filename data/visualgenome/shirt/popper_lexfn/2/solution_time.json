@@ -1,0 +1,1 @@
+{"33.820527208": "", "34.019194": "shirt_(V0):- striped(V0).", "34.070909041": "shirt_(V0):- to_the_right_of(V0,V2),to_the_left_of(V1,V2).", "34.120096166": "shirt_(V0):- to_the_right_of(V1,V0)."}

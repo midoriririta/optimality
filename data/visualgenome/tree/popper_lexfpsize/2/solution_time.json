@@ -1,0 +1,1 @@
+{"34.608371541000004": "", "34.85534370800001": "tree_(V0):- tall(V0).", "35.390456166": "tree_(V0):- to_the_right_of(V1,V0),standing(V1).", "35.506220375000005": "tree_(V0):- to_the_right_of(V1,V0),street_light(V1).", "38.62423725": "tree_(V0):- to_the_right_of(V2,V0),to_the_right_of(V1,V2),street_light(V1)."}

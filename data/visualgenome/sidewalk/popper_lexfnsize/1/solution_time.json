@@ -1,0 +1,1 @@
+{"33.816208292": "", "33.998623458": "sidewalk_(V0):- gray(V0).", "34.156186792": "sidewalk_(V0):- near(V0,V1).", "34.175145792": "sidewalk_(V0):- to_the_right_of(V0,V1).", "34.192091417": "sidewalk_(V0):- to_the_left_of(V0,V1)."}

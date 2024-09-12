@@ -1,0 +1,1 @@
+{"0": "", "23": "chair_(V0):- tan(V0).", "47": "chair_(V0):- to_the_left_of(V0,V2),above(V2,V1).", "52": "chair_(V0):- blue(V0).", "79": "chair_(V0):- wood(V0).", "11327": "chair_(V0):- to_the_left_of(V1,V0),to_the_left_of(V1,V2),wood(V2).", "15664": "chair_(V0):- to_the_left_of(V1,V0),to_the_left_of(V1,V2),brown(V2)."}

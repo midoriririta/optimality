@@ -1,0 +1,1 @@
+{"33.799548875": "", "34.161870541999996": "ear_(V0):- bear(V1),to_the_right_of(V0,V2),to_the_left_of(V2,V1).", "34.199448624999995": "ear_(V0):- gray(V0).", "35.548699": "ear_(V0):- pointy(V0).", "40.23562149999999": "ear_(V0):- to_the_left_of(V2,V0),to_the_right_of(V1,V2),small(V1).", "45.767945999999995": "ear_(V0):- to_the_left_of(V1,V0),to_the_left_of(V1,V2),eye(V2)."}

@@ -1,0 +1,1 @@
+{"0": "", "178": "tree_(V0):- near(V1,V0).", "179": "tree_(V0):- near(V1,V0),to_the_right_of(V2,V1).", "264": "tree_(V0):- tall(V0).", "349": "tree_(V0):- green(V0).", "378": "tree_(V0):- to_the_left_of(V0,V1).", "960": "tree_(V0):- to_the_right_of(V0,V1)."}

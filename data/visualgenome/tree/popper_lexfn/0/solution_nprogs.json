@@ -1,0 +1,1 @@
+{"0": "", "73": "tree_(V0):- on(V2,V1),to_the_right_of(V1,V2),to_the_left_of(V0,V2),to_the_left_of(V2,V1).", "82": "tree_(V0):- to_the_left_of(V0,V2),to_the_right_of(V1,V2).", "86": "tree_(V0):- to_the_left_of(V0,V2),to_the_left_of(V1,V2).", "167": "tree_(V0):- to_the_right_of(V0,V2),to_the_right_of(V1,V2)."}

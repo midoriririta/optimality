@@ -1,0 +1,1 @@
+{"0": "", "74": "sidewalk_(V0):- to_the_right_of(V1,V0),to_the_left_of(V1,V2),stone(V2),to_the_right_of(V2,V1).", "82": "sidewalk_(V0):- to_the_right_of(V1,V0),to_the_left_of(V1,V2),bus(V2),to_the_right_of(V2,V1).", "84": "sidewalk_(V0):- to_the_right_of(V1,V0)."}

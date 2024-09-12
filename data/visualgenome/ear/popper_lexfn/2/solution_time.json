@@ -1,0 +1,1 @@
+{"33.804831207999996": "", "34.252273875": "ear_(V0):- to_the_left_of(V0,V2),to_the_right_of(V1,V2).", "34.260900750000005": "ear_(V0):- to_the_left_of(V0,V2),to_the_right_of(V2,V1).", "34.931635125": "ear_(V0):- to_the_left_of(V2,V0),to_the_right_of(V1,V2)."}

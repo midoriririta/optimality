@@ -1,0 +1,1 @@
+{"33.890755084": "", "34.088762499999994": "chair_(V0):- wood(V0).", "82.484121042": "chair_(V0):- to_the_right_of(V0,V1),to_the_right_of(V2,V1),wood(V2).", "97.790072584": "chair_(V0):- to_the_right_of(V0,V1),to_the_right_of(V2,V1),brown(V2)."}

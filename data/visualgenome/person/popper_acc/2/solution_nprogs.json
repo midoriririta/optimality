@@ -1,0 +1,1 @@
+{"0": "", "32": "person_(V0):- eating(V0).", "84": "person_(V0):- on(V1,V2),on(V0,V2).", "149": "person_(V0):- to_the_right_of(V0,V2),to_the_right_of(V1,V2).", "10413": "person_(V0):- to_the_right_of(V1,V0),to_the_right_of(V1,V2),shirt(V2).", "19824": "person_(V0):- wearing(V0,V1)."}

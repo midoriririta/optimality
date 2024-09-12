@@ -1,0 +1,1 @@
+{"33.826922458": "", "34.026457291": "sidewalk_(V0):- concrete(V0).", "41.720777": "sidewalk_(V0):- on(V1,V0).", "43.182397916": "sidewalk_(V0):- to_the_right_of(V1,V2),on(V1,V0)."}

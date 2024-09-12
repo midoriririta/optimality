@@ -1,0 +1,1 @@
+{"34.750247584": "", "35.093760333999995": "tree_(V0):- to_the_left_of(V0,V2),to_the_right_of(V1,V2).", "35.103049125": "tree_(V0):- to_the_left_of(V0,V2),to_the_right_of(V2,V1).", "35.144780624999996": "tree_(V0):- to_the_left_of(V1,V0)."}

@@ -1,0 +1,1 @@
+{"33.778217292": "", "33.978861417000005": "car_(V0):- gray(V0).", "34.091096584": "car_(V0):- near(V0,V2),to_the_left_of(V1,V2).", "40.300286709": "car_(V0):- to_the_left_of(V2,V0),bus(V2),to_the_left_of(V1,V0).", "40.800181375": "car_(V0):- to_the_right_of(V2,V0),near(V2,V1).", "47.419267709": "car_(V0):- parked(V0)."}

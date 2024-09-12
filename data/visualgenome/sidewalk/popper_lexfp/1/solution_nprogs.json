@@ -1,0 +1,1 @@
+{"0": "", "32": "sidewalk_(V0):- concrete(V0).", "13416": "sidewalk_(V0):- on(V2,V1),person(V2),on(V2,V0).", "17368": "sidewalk_(V0):- walking_on(V1,V0)."}

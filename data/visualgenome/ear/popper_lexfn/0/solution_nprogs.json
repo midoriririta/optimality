@@ -1,0 +1,1 @@
+{"0": "", "35": "ear_(V0):- to_the_left_of(V0,V2),to_the_right_of(V1,V2).", "43": "ear_(V0):- to_the_left_of(V0,V2),to_the_right_of(V2,V1).", "94": "ear_(V0):- to_the_left_of(V1,V0)."}

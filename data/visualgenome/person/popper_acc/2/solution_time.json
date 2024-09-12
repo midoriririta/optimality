@@ -1,0 +1,1 @@
+{"33.752880749999996": "", "33.958543209": "person_(V0):- eating(V0).", "34.666003624999995": "person_(V0):- on(V1,V2),on(V0,V2).", "34.974917792": "person_(V0):- to_the_right_of(V0,V2),to_the_right_of(V1,V2).", "66.317982875": "person_(V0):- to_the_right_of(V1,V0),to_the_right_of(V1,V2),shirt(V2).", "105.336635917": "person_(V0):- wearing(V0,V1)."}

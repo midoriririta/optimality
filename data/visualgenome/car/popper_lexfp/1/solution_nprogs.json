@@ -1,0 +1,1 @@
+{"0": "", "85": "car_(V0):- small(V0),to_the_right_of(V0,V2),to_the_right_of(V1,V2).", "155": "car_(V0):- blue(V0).", "331": "car_(V0):- parked(V0)."}

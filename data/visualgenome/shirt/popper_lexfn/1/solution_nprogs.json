@@ -1,0 +1,1 @@
+{"0": "", "98": "shirt_(V0):- gold(V2),to_the_right_of(V2,V0),to_the_left_of(V1,V2),to_the_right_of(V2,V1).", "99": "shirt_(V0):- to_the_right_of(V2,V0),to_the_left_of(V2,V1).", "100": "shirt_(V0):- to_the_right_of(V2,V0),to_the_left_of(V1,V2)."}

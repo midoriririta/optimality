@@ -1,0 +1,1 @@
+{"33.690314167000004": "", "33.893806667": "person_(V0):- eating(V0).", "33.934264583": "person_(V0):- to_the_left_of(V0,V2),to_the_left_of(V2,V1).", "33.952401292": "person_(V0):- to_the_left_of(V0,V2),to_the_left_of(V1,V2).", "34.351239208": "person_(V0):- to_the_right_of(V0,V2),to_the_left_of(V2,V1)."}
