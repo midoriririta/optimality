@@ -1,0 +1,1 @@
+{"0": "", "21": "great_ne(V0,V1):- ring_subst_6(V1,V3),x_subst(V0,V2,V3).", "52": "great_ne(V0,V1):- ring_subst_5(V1,V3),ring_subst_4(V0,V2).", "83": "great_ne(V0,V1):- ring_substitutions(V0,V2),ring_subst_6(V1,V3).", "1050": "great_ne(V0,V1):- ring_substitutions(V0,V3),alk_groups(V1,V2),gt(V3,V2)."}

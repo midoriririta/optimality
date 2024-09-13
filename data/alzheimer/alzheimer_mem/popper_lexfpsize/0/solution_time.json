@@ -1,0 +1,1 @@
+{"7.40198575": "", "7.682622500000001": "great_rsd(V0,V1):- ring_subst_5(V0,V2),n_val(V1,V3).", "8.062552833": "great_rsd(V0,V1):- ring_subst_4(V0,V4),ring_subst_4(V1,V4),x_subst(V1,V3,V2).", "8.197484292": "great_rsd(V0,V1):- ring_subst_2(V0,V4),x_subst(V1,V3,V4),r_subst_2(V1,V2)."}

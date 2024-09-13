@@ -1,0 +1,1 @@
+{"7.412737333000001": "", "7.703810833": "great_rsd(V0,V1):- ring_substitutions(V1,V2),ring_substitutions(V0,V2),alk_groups(V1,V3),gt(V3,V2),alk_groups(V0,V3).", "16.345762708": "great_rsd(V0,V1):- x_subst(V1,V3,V2),x_subst(V0,V3,V2),ring_substitutions(V1,V4)."}

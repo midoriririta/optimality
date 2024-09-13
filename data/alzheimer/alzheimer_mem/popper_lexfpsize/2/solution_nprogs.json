@@ -1,0 +1,1 @@
+{"0": "", "3": "great_rsd(V0,V1):- r_subst_3(V0,V2),n_val(V1,V3).", "4": "great_rsd(V0,V1):- n_val(V1,V3),ring_subst_4(V0,V2).", "588": "great_rsd(V0,V1):- ring_subst_2(V0,V2),x_subst(V1,V4,V2),ring_substitutions(V1,V3)."}

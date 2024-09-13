@@ -1,0 +1,1 @@
+{"0": "", "39": "great(V0,V1):- ring_subst_3(V1,V3),ring_subst_5(V0,V2).", "227": "great(V0,V1):- r_subst_3(V1,V3),ring_subst_4(V1,V4),r_subst_2(V0,V2).", "1230": "great(V0,V1):- alk_groups(V0,V4),ring_subst_4(V1,V2),r_subst_3(V1,V3)."}

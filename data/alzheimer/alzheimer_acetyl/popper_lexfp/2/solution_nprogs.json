@@ -1,0 +1,1 @@
+{"0": "", "15": "great(V0,V1):- alk_groups(V0,V2),ring_substitutions(V1,V2),ring_substitutions(V0,V2),alk_groups(V1,V3),gt(V3,V2).", "366": "great(V0,V1):- alk_groups(V1,V4),r_subst_2(V0,V2),ring_substitutions(V1,V3),gt(V4,V3),alk_groups(V0,V3).", "372": "great(V0,V1):- alk_groups(V1,V4),ring_substitutions(V1,V3),gt(V4,V3),alk_groups(V0,V3),gt(V3,V2)."}

@@ -1,0 +1,1 @@
+{"7.472653": "", "7.757740750000001": "great_ne(V0,V1):- ring_subst_3(V1,V3),ring_substitutions(V0,V2).", "7.791868708": "great_ne(V0,V1):- r_subst_2(V0,V4),x_subst(V1,V3,V2).", "7.858076082999999": "great_ne(V0,V1):- ring_substitutions(V0,V2),r_subst_1(V1,V3)."}

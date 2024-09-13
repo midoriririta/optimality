@@ -1,0 +1,1 @@
+{"0": "", "2": "less_toxic(V0,V1):- ring_substitutions(V0,V2),ring_subst_3(V1,V3).", "3": "less_toxic(V0,V1):- r_subst_1(V0,V2),ring_subst_3(V1,V3).", "25": "less_toxic(V0,V1):- x_subst(V0,V2,V3),r_subst_1(V1,V4).", "49": "less_toxic(V0,V1):- ring_substitutions(V0,V2),r_subst_1(V1,V3).", "54": "less_toxic(V0,V1):- alk_groups(V0,V2),r_subst_1(V1,V3)."}
