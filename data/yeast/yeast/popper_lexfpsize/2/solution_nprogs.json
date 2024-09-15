@@ -1,0 +1,1 @@
+{"0": "", "10": "proteins(V0):- path(V0,V1).", "15": "proteins(V0):- enzyme(V0,V1),renzyme(V0,V1).", "73": "proteins(V0):- path(V0,V1).\nproteins(V0):- enzyme(V0,V1),renzyme(V0,V1).\nproteins(V0):- rprotein_class(V0,V2),protein_class(V1,V2),rprotein_class(V1,V2)."}

@@ -1,0 +1,1 @@
+{"53.299479792": "", "53.492282375": "proteins(V0):- path(V0,V1).", "53.593492624999996": "proteins(V0):- enzyme(V0,V1),renzyme(V0,V1).", "76.247545917": "proteins(V0):- path(V0,V1).\nproteins(V0):- enzyme(V0,V1),renzyme(V0,V1).\nproteins(V0):- rprotein_class(V0,V2),protein_class(V1,V2),rprotein_class(V1,V2)."}

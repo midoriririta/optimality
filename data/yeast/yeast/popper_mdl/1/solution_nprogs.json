@@ -1,0 +1,1 @@
+{"0": "", "1": "proteins(V0):- complex(V0,V1).", "2": "proteins(V0):- location(V0,V1).", "3": "proteins(V0):- enzyme(V0,V1).", "72": "proteins(V0):- enzyme(V0,V1).\nproteins(V0):- protein_class(V0,V2),rphenotype(V0,V1).\nproteins(V0):- rprotein_class(V0,V2),location(V0,V1)."}

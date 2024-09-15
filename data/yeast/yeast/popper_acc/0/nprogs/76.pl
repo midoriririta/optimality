@@ -1,0 +1,14 @@
+proteins(V0):- rphenotype(V0,V1).
+proteins(V0):- rprotein_class(V0,V1).
+proteins(V0):- path(V0,V1),interaction(V1,V0,V2).
+proteins(V0):- enzyme(V0,V2),phenotype(V0,V1).
+proteins(V0):- enzyme(V0,V2),enzyme(V1,V2).
+proteins(V0):- enzyme(V0,V2),renzyme(V1,V2).
+proteins(V0):- enzyme(V0,V2),location(V0,V1).
+proteins(V0):- rprotein_class(V0,V2),protein_class(V1,V2).
+proteins(V0):- protein_class(V0,V1),rphenotype(V0,V2).
+proteins(V0):- protein_class(V0,V1),complex(V0,V2).
+proteins(V0):- protein_class(V0,V1),rprotein_class(V2,V1).
+proteins(V0):- renzyme(V0,V1),enzyme(V2,V1).
+proteins(V0):- rphenotype(V0,V2),complex(V0,V1).
+accuracy: 75.6983556799145

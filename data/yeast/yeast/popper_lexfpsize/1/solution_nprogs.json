@@ -1,0 +1,1 @@
+{"0": "", "15": "proteins(V0):- enzyme(V0,V1),renzyme(V0,V1).", "71": "proteins(V0):- enzyme(V0,V1),enzyme(V2,V1),renzyme(V2,V1).", "72": "proteins(V0):- protein_class(V0,V1),rprotein_class(V2,V1).\nproteins(V0):- rprotein_class(V0,V1),protein_class(V2,V1),rprotein_class(V2,V1).\nproteins(V0):- enzyme(V0,V1),enzyme(V2,V1),renzyme(V2,V1)."}

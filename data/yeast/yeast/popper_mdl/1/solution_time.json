@@ -1,0 +1,1 @@
+{"53.863350708": "", "53.9858605": "proteins(V0):- complex(V0,V1).", "54.018591583": "proteins(V0):- location(V0,V1).", "54.031314125": "proteins(V0):- enzyme(V0,V1).", "67.27727920800001": "proteins(V0):- enzyme(V0,V1).\nproteins(V0):- protein_class(V0,V2),rphenotype(V0,V1).\nproteins(V0):- rprotein_class(V0,V2),location(V0,V1)."}
