@@ -1,0 +1,9 @@
+zendo(V0):- small(V2),piece(V0,V5),coord2(V5,V1),piece(V0,V3),size(V3,V2),contact(V3,V4).
+zendo(V0):- small(V2),piece(V0,V5),coord2(V5,V1),piece(V0,V3),coord1(V3,V2),contact(V3,V4).
+zendo(V0):- piece(V0,V5),coord2(V5,V1),coord1(V5,V2),piece(V0,V3),coord2(V3,V2),contact(V3,V4).
+zendo(V0):- piece(V0,V5),coord2(V5,V1),piece(V0,V3),coord2(V3,V2),contact(V3,V4),coord2(V4,V2).
+zendo(V0):- small(V1),piece(V0,V3),size(V3,V1),piece(V0,V2),blue(V2),lhs(V2).
+zendo(V0):- piece(V0,V2),blue(V2),size(V2,V1),coord1(V2,V1),piece(V0,V3),lhs(V3).
+zendo(V0):- medium(V3),small(V1),piece(V0,V2),size(V2,V3),coord2(V2,V1),contact(V2,V4).
+zendo(V0):- piece(V0,V2),contact(V2,V4),piece(V0,V3),upright(V3),green(V3),coord1(V3,V1).
+accuracy: 95.2
