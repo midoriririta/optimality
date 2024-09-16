@@ -1,0 +1,1 @@
+{"5.118562833": "", "5.364037291000001": "f(V0):- has_car(V0,V1),roof_open(V1),two_wheels(V1).", "6.988555333000001": "f(V0):- has_car(V0,V1),roof_closed(V1),has_car(V0,V2),roof_open(V2),two_wheels(V2).", "57.994077624999996": "f(V0):- has_car(V0,V2),roof_open(V2),has_load(V2,V1),triangle(V1).\nf(V0):- has_car(V0,V1),roof_closed(V1),has_car(V0,V2),roof_open(V2),two_wheels(V2)."}

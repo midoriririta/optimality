@@ -1,0 +1,1 @@
+{"5.392547500000001": "", "5.553201458": "f(V0):- has_car(V0,V1).", "5.577328082999999": "f(V0):- has_car(V0,V1),long(V1).", "5.6067438329999995": "f(V0):- has_car(V0,V1),three_wheels(V1).", "6.431827125": "f(V0):- has_car(V0,V2),two_wheels(V2),has_car(V0,V1),three_wheels(V1).", "10.178166292": "f(V0):- has_car(V0,V1),three_wheels(V1),has_car(V0,V2),two_wheels(V2),long(V2)."}
