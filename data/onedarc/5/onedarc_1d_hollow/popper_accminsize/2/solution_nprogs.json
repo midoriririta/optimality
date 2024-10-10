@@ -1,0 +1,1 @@
+{"0": "", "48": "out(V0,V1,V2):- in(V0,V1,V2),c3(V1).", "140": "out(V0,V1,V2):- in(V0,V1,V2),my_succ(V3,V1),empty(V0,V3).", "73710": "out(V0,V1,V2):- in(V0,V1,V2),empty(V0,V3),my_succ(V4,V3),add(V4,V5,V1),lt(V5,V4).", "98850": "out(V0,V1,V2):- in(V0,V1,V2),my_succ(V3,V1),empty(V0,V3).\nout(V0,V1,V2):- in(V0,V1,V2),my_succ(V1,V3),empty(V0,V3)."}
