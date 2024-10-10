@@ -1,0 +1,1 @@
+{"0": "", "1": "out(V0,V1,V2):- in(V0,V1,V2).", "152": "out(V0,V1,V2):- c7(V4),in(V0,V4,V2),in(V3,V1,V5).", "242": "out(V0,V1,V2):- in(V0,V1,V2),in(V0,V3,V2),empty(V4,V3).", "248": "out(V0,V1,V2):- in(V0,V1,V2),c8(V3),in(V0,V3,V2).", "678": "out(V0,V1,V2):- c6(V3),in(V0,V3,V2),in(V4,V1,V2).", "695": "out(V0,V1,V2):- c6(V3),in(V0,V3,V2),in(V0,V1,V4)."}

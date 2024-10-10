@@ -1,0 +1,1 @@
+{"8.754926167": "", "9.280565625": "out(V0,V1,V2):- v5(V2),c3(V1),in(V0,V1,V3).", "9.36969925": "out(V0,V1,V2):- in(V0,V1,V2),my_succ(V3,V1),empty(V0,V3).", "38.753109167": "out(V0,V1,V2):- in(V0,V1,V2),my_succ(V3,V1),empty(V0,V3).\nout(V0,V1,V2):- in(V0,V1,V2),my_succ(V1,V3),empty(V0,V3)."}

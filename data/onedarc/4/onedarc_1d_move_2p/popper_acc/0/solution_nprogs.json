@@ -1,0 +1,1 @@
+{"0": "", "1": "out(V0,V1,V2):- in(V0,V1,V2).", "120": "out(V0,V1,V2):- in(V0,V1,V2),c3(V3),lt(V3,V1).", "121": "out(V0,V1,V2):- in(V0,V1,V2),c2(V3),lt(V3,V1).", "1666": "out(V0,V1,V2):- my_succ(V4,V1),in(V0,V4,V2),empty(V0,V3).", "1692": "out(V0,V1,V2):- my_succ(V3,V1),my_succ(V4,V3),in(V0,V4,V2)."}
