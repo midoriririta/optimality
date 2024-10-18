@@ -1,1 +1,1 @@
-{"0": "", "300852": "fault(V0):- tm058_asr_or_switch_10(V2,V0),succ(V1,V0),tm017_switch(V2,V1),tm043_switch(V2,V1).", "309005": "fault(V0):- tm222_charging(V2,V0),tm031_switch(V2,V0),succ(V1,V0),tm222_charging(V2,V1).", "349410": "fault(V0):- tm058_asr_or_switch_10(V2,V0),succ(V1,V0),tm017_switch(V2,V1),tm043_switch(V2,V1).\nfault(V0):- tm222_charging(V2,V0),tm031_switch(V2,V0),succ(V1,V0),tm222_charging(V2,V1)."}
+{"0": "", "25687": "fault(V0):- succ(V2,V0),tm222_charging(V1,V2),tm031_switch(V1,V0),tm222_charging(V1,V0)."}

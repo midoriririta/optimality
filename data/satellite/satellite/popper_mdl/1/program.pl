@@ -3,43 +3,48 @@
 % balanced accuracy: 50.0
 % mcc: 0
 % conf_matrix: None
-% learning time: 142.37489875
+% learning time: 543.64137925
 % program size: 0
 % stats: Best_prog_score: (0, 7, 480, 0, 0)
 Last combine reached: False
 Terminated: True
-Num. programs: 85983
+Num. programs: 168974
 Generate:
-	Called: 85984 times 	 Total: 43.20 	 Mean: 0.001 	 Max: 3.747 	 Percentage: 29%
+	Called: 168975 times 	 Total: 324.00 	 Mean: 0.002 	 Max: 17.441 	 Percentage: 61%
 Constrain:
-	Called: 85983 times 	 Total: 34.30 	 Mean: 0.000 	 Max: 0.397 	 Percentage: 23%
-Cons_Other:
-	Called: 85983 times 	 Total: 26.53 	 Mean: 0.000 	 Max: 0.157 	 Percentage: 17%
+	Called: 168974 times 	 Total: 55.10 	 Mean: 0.000 	 Max: 1.822 	 Percentage: 10%
 Test:
-	Called: 85983 times 	 Total: 19.38 	 Mean: 0.000 	 Max: 0.097 	 Percentage: 13%
-Find Mucs:
-	Called: 38729 times 	 Total: 7.95 	 Mean: 0.000 	 Max: 0.198 	 Percentage: 5%
+	Called: 168974 times 	 Total: 51.64 	 Mean: 0.000 	 Max: 0.150 	 Percentage: 9%
+Cons_Other:
+	Called: 168974 times 	 Total: 41.26 	 Mean: 0.000 	 Max: 0.090 	 Percentage: 7%
 Bkcons:
-	Called: 1 times 	 Total: 5.06 	 Mean: 5.062 	 Max: 5.062 	 Percentage: 3%
-Gen:
-	Called: 41485 times 	 Total: 3.57 	 Mean: 0.000 	 Max: 0.397 	 Percentage: 2%
+	Called: 1 times 	 Total: 30.05 	 Mean: 30.047 	 Max: 30.047 	 Percentage: 5%
+Find Mucs:
+	Called: 55478 times 	 Total: 9.88 	 Mean: 0.000 	 Max: 0.048 	 Percentage: 1%
 Spec:
-	Called: 38745 times 	 Total: 2.55 	 Mean: 0.000 	 Max: 0.257 	 Percentage: 1%
+	Called: 55509 times 	 Total: 4.55 	 Mean: 0.000 	 Max: 1.821 	 Percentage: 0%
+Gen:
+	Called: 70592 times 	 Total: 4.51 	 Mean: 0.000 	 Max: 0.351 	 Percentage: 0%
 Manager:
-	Called: 2 times 	 Total: 2.46 	 Mean: 1.232 	 Max: 2.452 	 Percentage: 1%
-Recalls:
-	Called: 1 times 	 Total: 1.07 	 Mean: 1.070 	 Max: 1.070 	 Percentage: 0%
-Load Data:
-	Called: 1 times 	 Total: 0.58 	 Mean: 0.579 	 Max: 0.579 	 Percentage: 0%
-Adding Constraints:
-	Called: 85983 times 	 Total: 0.40 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
+	Called: 2 times 	 Total: 3.14 	 Mean: 1.568 	 Max: 3.129 	 Percentage: 0%
 Banish:
-	Called: 5769 times 	 Total: 0.36 	 Mean: 0.000 	 Max: 0.001 	 Percentage: 0%
+	Called: 42904 times 	 Total: 2.51 	 Mean: 0.000 	 Max: 0.225 	 Percentage: 0%
+Recalls:
+	Called: 1 times 	 Total: 0.80 	 Mean: 0.798 	 Max: 0.798 	 Percentage: 0%
+Adding Constraints:
+	Called: 168974 times 	 Total: 0.69 	 Mean: 0.000 	 Max: 0.007 	 Percentage: 0%
+Janus_Clear:
+	Called: 33 times 	 Total: 0.50 	 Mean: 0.015 	 Max: 0.027 	 Percentage: 0%
 Some More Constraints:
-	Called: 85983 times 	 Total: 0.23 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
+	Called: 168974 times 	 Total: 0.41 	 Mean: 0.000 	 Max: 0.002 	 Percentage: 0%
+Load Data:
+	Called: 1 times 	 Total: 0.38 	 Mean: 0.380 	 Max: 0.380 	 Percentage: 0%
 Init:
-	Called: 2 times 	 Total: 0.17 	 Mean: 0.083 	 Max: 0.166 	 Percentage: 0%
+	Called: 2 times 	 Total: 0.12 	 Mean: 0.060 	 Max: 0.120 	 Percentage: 0%
 Check_Add_To_Combiner:
-	Called: 85983 times 	 Total: 0.07 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
-Total operation time: 147.87s
-Total execution time: 147.52s
+	Called: 168974 times 	 Total: 0.11 	 Mean: 0.000 	 Max: 0.001 	 Percentage: 0%
+Find_Pointless_Relations:
+	Called: 1 times 	 Total: 0.00 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
+Total operation time: 529.64s
+Total execution time: 550.03s
+[]

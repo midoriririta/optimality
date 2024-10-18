@@ -1,1 +1,0 @@
-{"7.513103374999999": "", "443.09538820800003": "fault(V0):- tm222_charging(V2,V0),tm031_switch(V2,V0),succ(V1,V0),tm222_charging(V2,V1)."}

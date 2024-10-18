@@ -1,1 +1,1 @@
-{"7.590567332999999": "", "428.630699583": "fault(V0):- tm222_charging(V2,V0),tm031_switch(V2,V0),succ(V1,V0),tm222_charging(V2,V1)."}
+{"31.371512542000005": "", "198.146028542": "fault(V0):- succ(V1,V0),tm017_switch(V2,V1),tm054_supply_1a(V2,V0),tm055_supply_1b(V2,V0).", "216.2790135": "fault(V0):- succ(V1,V0),tm031_switch(V2,V0),tm222_charging(V2,V0),tm222_charging(V2,V1).", "1736.898955": "fault(V0):- succ(V1,V0),tm017_switch(V2,V1),tm054_supply_1a(V2,V0),tm055_supply_1b(V2,V0).\nfault(V0):- succ(V1,V0),tm031_switch(V2,V0),tm222_charging(V2,V0),tm222_charging(V2,V1)."}

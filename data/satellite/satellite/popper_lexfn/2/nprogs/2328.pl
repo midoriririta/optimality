@@ -1,2 +1,0 @@
-fault(V0):- tm021_eoc_disabled(V2,V0),tm031_switch(V1,V0),succ(V3,V0),tm211_bus_voltage(V1,V3).
-accuracy: 55.99173553719008
