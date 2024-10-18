@@ -1,1 +1,1 @@
-{"15.395144791": "", "15.974622291": "advisedBy(V0,V1):- professor(V1),ta(V2,V0,V3),taughtBy(V2,V1,V3),publication(V4,V0).", "16.483513208": "advisedBy(V0,V1):- ta(V2,V0,V3),taughtBy(V2,V1,V3),publication(V4,V1),publication(V4,V0)."}
+{"14.464147000000002": "", "15.064855375000002": "advisedBy(V0,V1):- professor(V1),ta(V2,V0,V3),taughtBy(V2,V1,V3),publication(V4,V0).", "15.716449625000001": "advisedBy(V0,V1):- ta(V2,V0,V3),taughtBy(V2,V1,V3),publication(V4,V1),publication(V4,V0)."}
