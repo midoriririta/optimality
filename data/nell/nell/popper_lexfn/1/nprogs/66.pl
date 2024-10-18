@@ -1,2 +1,0 @@
-teamplayssport(V0,V1):- plays(V1,V3),teamplaysagainstteam(V0,V4),teamplaysagainstteam(V3,V4),teamplaysagainstteam(V4,V3),teamplaysagainstteam(V4,V0),athleteplayssport(V2,V1).
-accuracy: 68.88888888888889
