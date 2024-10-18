@@ -1,0 +1,11 @@
+out(V0,V1,V2):- c4(V1),v8(V2),in(V0,V1,V3).
+out(V0,V1,V2):- v8(V2),my_succ(V3,V1),c1(V3),empty(V0,V3).
+out(V0,V1,V2):- v8(V2),c7(V3),empty(V0,V3),my_succ(V1,V3).
+out(V0,V1,V2):- v1(V2),my_succ(V1,V3),empty(V0,V3),c6(V3).
+out(V0,V1,V2):- v1(V2),in(V0,V1,V3),c6(V4),lt(V4,V1).
+out(V0,V1,V2):- v8(V2),c5(V1),c7(V3),empty(V0,V3).
+out(V0,V1,V2):- c3(V1),v1(V2),c9(V3),empty(V0,V3).
+out(V0,V1,V2):- v1(V2),c2(V1),c9(V3),empty(V0,V3).
+out(V0,V1,V2):- c3(V1),v8(V2),c9(V4),in(V0,V4,V3).
+out(V0,V1,V2):- c1(V1),v8(V2),c4(V4),in(V0,V4,V3).
+accuracy: 97.14285714285714

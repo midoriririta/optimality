@@ -1,0 +1,2 @@
+out(V0,V1,V2):- my_succ(V1,V4),c6(V5),add(V3,V5,V4),in(V0,V3,V2).
+accuracy: 91.06535947712419

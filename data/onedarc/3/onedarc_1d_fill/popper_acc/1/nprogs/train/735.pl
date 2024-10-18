@@ -1,0 +1,2 @@
+out(V0,V1,V2):- in(V0,V4,V2),in(V3,V5,V2),lt(V1,V5).
+accuracy: 97.29154287977818

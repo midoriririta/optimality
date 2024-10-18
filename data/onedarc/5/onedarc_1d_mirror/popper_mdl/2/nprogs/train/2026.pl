@@ -1,0 +1,2 @@
+out(V0,V1,V2):- c8(V4),add(V3,V4,V1),lt(V3,V4),in(V0,V3,V2).
+accuracy: 88.12845651080946
