@@ -1,1 +1,1 @@
-{"1.126933042000001": "", "1.361385833": "faculty(V0):- courseprof(V1,V0),courseprof(V1,V4),courseprof(V5,V4),courseprof(V5,V3),courseprof(V2,V3),courseprof(V2,V4)."}
+{"0.5112475420000004": "", "0.6149021250000004": "faculty(V0):- courseprof(V1,V0),courseprof(V1,V4),courseprof(V2,V4),courseprof(V2,V3),courseprof(V5,V4),courseprof(V5,V3)."}
