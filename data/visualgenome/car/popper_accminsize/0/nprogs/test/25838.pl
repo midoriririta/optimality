@@ -1,0 +1,15 @@
+car_(V0):- parked(V0).
+car_(V0):- behind(V0,V1).
+car_(V0):- to_the_right_of(V1,V0),fence(V1).
+car_(V0):- leafless(V1),to_the_right_of(V1,V0).
+car_(V0):- in(V2,V0),wearing(V2,V1).
+car_(V0):- to_the_left_of(V1,V0),window(V1).
+car_(V0):- on(V0,V1),street(V1).
+car_(V0):- to_the_left_of(V2,V0),to_the_left_of(V1,V2),white(V1).
+car_(V0):- to_the_left_of(V2,V0),to_the_left_of(V1,V2),window(V1).
+car_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),glass(V1).
+car_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),sidewalk(V1).
+car_(V0):- to_the_right_of(V2,V0),to_the_right_of(V2,V1),sign(V1).
+car_(V0):- to_the_right_of(V2,V0),to_the_right_of(V1,V2),window(V1).
+car_(V0):- to_the_left_of(V0,V1),pole(V1),to_the_left_of(V2,V1),pole(V2).
+accuracy: 62.845508351725506

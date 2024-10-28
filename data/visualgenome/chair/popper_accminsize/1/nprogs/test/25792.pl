@@ -1,0 +1,14 @@
+chair_(V0):- wood(V0).
+chair_(V0):- above(V1,V0).
+chair_(V0):- to_the_left_of(V0,V1),brown(V1).
+chair_(V0):- to_the_left_of(V0,V1),wall(V1).
+chair_(V0):- to_the_left_of(V0,V1),hair(V1).
+chair_(V0):- to_the_left_of(V0,V1),tail(V1).
+chair_(V0):- at(V1,V2),to_the_left_of(V0,V1).
+chair_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),brown(V1).
+chair_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),blue(V1).
+chair_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),desk(V1).
+chair_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),yellow(V1).
+chair_(V0):- to_the_left_of(V2,V0),to_the_left_of(V1,V2),street_light(V1).
+chair_(V0):- to_the_left_of(V0,V2),to_the_right_of(V2,V1),shirt(V1).
+accuracy: 60.61946732880112

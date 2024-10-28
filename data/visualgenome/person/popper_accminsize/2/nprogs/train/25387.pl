@@ -1,0 +1,12 @@
+person_(V0):- young(V0).
+person_(V0):- wearing(V0,V1).
+person_(V0):- to_the_right_of(V0,V2),carrying(V2,V1).
+person_(V0):- to_the_left_of(V1,V0),building(V1).
+person_(V0):- to_the_left_of(V0,V1),yellow(V1).
+person_(V0):- to_the_left_of(V0,V1),young(V1).
+person_(V0):- to_the_left_of(V0,V1),street_light(V1).
+person_(V0):- to_the_right_of(V2,V0),to_the_left_of(V2,V1),blue(V1).
+person_(V0):- to_the_right_of(V2,V0),to_the_left_of(V1,V2),walking(V1).
+person_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),blue(V1).
+person_(V0):- to_the_left_of(V2,V0),to_the_left_of(V1,V2),wall(V1).
+accuracy: 100.0

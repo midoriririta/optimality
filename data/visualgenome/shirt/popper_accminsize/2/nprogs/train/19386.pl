@@ -1,0 +1,11 @@
+shirt_(V0):- striped(V0).
+shirt_(V0):- collar(V1),to_the_left_of(V2,V0),to_the_left_of(V2,V1).
+shirt_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),blue(V1).
+shirt_(V0):- wearing(V2,V0),to_the_right_of(V2,V1),to_the_left_of(V1,V0).
+shirt_(V0):- to_the_right_of(V2,V0),to_the_right_of(V2,V1),helmet(V1).
+shirt_(V0):- to_the_right_of(V2,V0),to_the_right_of(V2,V1),cap(V1).
+shirt_(V0):- to_the_right_of(V2,V0),to_the_right_of(V2,V1),brown(V1).
+shirt_(V0):- to_the_right_of(V2,V0),to_the_right_of(V2,V1),red(V1).
+shirt_(V0):- to_the_right_of(V0,V2),person(V2),to_the_left_of(V2,V1),person(V1).
+shirt_(V0):- to_the_left_of(V0,V1),person(V1),to_the_left_of(V2,V1),person(V2).
+accuracy: 97.0

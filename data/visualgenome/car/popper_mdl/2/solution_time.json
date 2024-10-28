@@ -1,1 +1,1 @@
-{"33.813350042": "", "34.038649958": "car_(V0):- blue(V0).", "34.126230583": "car_(V0):- parked(V0)."}
+{"33.785337": "", "34.017738333": "car_(V0):- blue(V0).", "34.10915775": "car_(V0):- parked(V0).", "59.056263707999996": "car_(V0):- parked(V0).\ncar_(V0):- behind(V0,V1).\ncar_(V0):- to_the_right_of(V0,V1),window(V1).\ncar_(V0):- to_the_right_of(V0,V1),fence(V1).\ncar_(V0):- to_the_right_of(V0,V2),to_the_left_of(V2,V1),wheel(V1)."}

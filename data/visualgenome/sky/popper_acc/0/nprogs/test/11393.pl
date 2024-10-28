@@ -1,0 +1,17 @@
+sky_(V0):- orange(V0).
+sky_(V0):- bright(V0).
+sky_(V0):- purple(V0).
+sky_(V0):- blue(V0).
+sky_(V0):- clear(V0).
+sky_(V0):- gray(V0).
+sky_(V0):- in(V1,V0),kite(V1).
+sky_(V0):- in(V1,V0),cloud(V1).
+sky_(V0):- in(V1,V0),clouds(V1).
+sky_(V0):- to_the_left_of(V0,V2),purple(V2),to_the_left_of(V0,V1).
+sky_(V0):- to_the_left_of(V0,V1),to_the_left_of(V2,V1),boat(V2).
+sky_(V0):- to_the_left_of(V0,V1),near(V2,V1),parked(V2).
+sky_(V0):- to_the_left_of(V1,V0),to_the_left_of(V2,V1),roof(V2).
+sky_(V0):- to_the_right_of(V0,V1),to_the_left_of(V2,V1),gray(V2).
+sky_(V0):- to_the_right_of(V2,V0),building(V2),to_the_left_of(V0,V1).
+sky_(V0):- to_the_left_of(V2,V0),building(V2),to_the_left_of(V0,V1).
+accuracy: 80.39301505560444

@@ -1,0 +1,6 @@
+sidewalk_(V0):- near(V1,V0).
+sidewalk_(V0):- above(V1,V0).
+sidewalk_(V0):- walking_on(V1,V0).
+sidewalk_(V0):- to_the_left_of(V0,V1),car(V1).
+sidewalk_(V0):- to_the_right_of(V2,V1),on(V2,V0).
+accuracy: 77.0

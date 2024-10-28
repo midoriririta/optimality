@@ -1,1 +1,1 @@
-{"33.727681792": "", "33.904489": "person_(V0):- standing(V0).", "34.063264417": "person_(V0):- to_the_right_of(V0,V1).", "34.087212209": "person_(V0):- wearing(V0,V1)."}
+{"33.80371425": "", "33.987011083": "person_(V0):- standing(V0).", "34.143783541": "person_(V0):- to_the_right_of(V0,V1).", "34.164696291": "person_(V0):- wearing(V0,V1).", "62.880406625": "person_(V0):- wearing(V0,V1).\nperson_(V0):- carrying(V0,V1).\nperson_(V0):- to_the_right_of(V1,V0),street_light(V1).\nperson_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),blue(V1)."}

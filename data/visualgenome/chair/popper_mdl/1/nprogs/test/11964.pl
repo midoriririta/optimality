@@ -1,0 +1,6 @@
+chair_(V0):- wood(V0).
+chair_(V0):- to_the_left_of(V0,V1),brown(V1).
+chair_(V0):- on(V2,V1),to_the_left_of(V0,V1).
+chair_(V0):- to_the_left_of(V0,V2),to_the_right_of(V2,V1),blue(V1).
+chair_(V0):- to_the_right_of(V0,V2),to_the_right_of(V1,V2),brown(V1).
+accuracy: 61.093059805457244

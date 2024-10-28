@@ -1,1 +1,1 @@
-{"0": "", "26": "person_(V0):- standing(V0).", "298": "person_(V0):- to_the_right_of(V0,V1).", "301": "person_(V0):- wearing(V0,V1)."}
+{"0": "", "26": "person_(V0):- standing(V0).", "298": "person_(V0):- to_the_right_of(V0,V1).", "301": "person_(V0):- wearing(V0,V1).", "9235": "person_(V0):- wearing(V0,V1).\nperson_(V0):- carrying(V0,V1).\nperson_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),blue(V1)."}

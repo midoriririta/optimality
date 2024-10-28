@@ -1,0 +1,14 @@
+person_(V0):- wearing(V0,V1).
+person_(V0):- carrying(V0,V1).
+person_(V0):- to_the_right_of(V1,V0),yellow(V1).
+person_(V0):- to_the_right_of(V0,V2),carrying(V2,V1).
+person_(V0):- yellow(V1),to_the_left_of(V2,V1),on(V0,V2).
+person_(V0):- to_the_left_of(V0,V2),to_the_left_of(V2,V1),yellow(V1).
+person_(V0):- to_the_right_of(V0,V1),to_the_right_of(V1,V2),pizza(V2).
+person_(V0):- to_the_right_of(V2,V0),street_light(V2),to_the_right_of(V1,V0).
+person_(V0):- to_the_left_of(V1,V0),to_the_right_of(V1,V2),jacket(V2).
+person_(V0):- to_the_right_of(V2,V0),pink(V2),to_the_right_of(V1,V0).
+person_(V0):- to_the_right_of(V1,V0),to_the_right_of(V1,V2),chair(V2).
+person_(V0):- to_the_left_of(V1,V0),to_the_left_of(V1,V2),young(V2).
+person_(V0):- to_the_left_of(V1,V0),to_the_right_of(V2,V1),blue(V2).
+accuracy: 68.7618187676233

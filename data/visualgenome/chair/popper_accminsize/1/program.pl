@@ -1,66 +1,78 @@
-chair_(V0):- to_the_right_of(V2,V0),to_the_left_of(V1,V2),blue(V1).
-% accuracy: 92.49358978036035
-% balanced accuracy: 51.907911760924144
-% mcc: 0.010934111329644593
-% conf_matrix: [103, 844, 161142, 12242]
-% learning time: 107.278988416
-% program size: 4
-% stats: Best_prog_score: (12, 38, 49, 1, 4)
+chair_(V0):- wood(V0).
+chair_(V0):- above(V1,V0).
+chair_(V0):- to_the_left_of(V0,V1),brown(V1).
+chair_(V0):- to_the_left_of(V0,V1),wall(V1).
+chair_(V0):- to_the_left_of(V0,V1),hair(V1).
+chair_(V0):- to_the_left_of(V0,V1),tail(V1).
+chair_(V0):- at(V1,V2),to_the_left_of(V0,V1).
+chair_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),brown(V1).
+chair_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),blue(V1).
+chair_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),desk(V1).
+chair_(V0):- to_the_left_of(V2,V0),to_the_left_of(V2,V1),yellow(V1).
+chair_(V0):- to_the_left_of(V2,V0),to_the_left_of(V1,V2),street_light(V1).
+chair_(V0):- to_the_left_of(V0,V2),to_the_right_of(V2,V1),shirt(V1).
+% accuracy: 74.20481727288893
+% balanced accuracy: 60.61946732880112
+% mcc: 0.03569754289875532
+% conf_matrix: [444, 503, 128918, 44466]
+% learning time: 122.37703695900001
+% program size: 43
+% stats: Best_prog_score: (49, 1, 50, 0, 43)
 Last combine reached: True
 Terminated: True
 Num. programs: 25792
 Test:
-	Called: 25792 times 	 Total: 38.22 	 Mean: 0.001 	 Max: 0.686 	 Percentage: 32%
+	Called: 25792 times 	 Total: 37.44 	 Mean: 0.001 	 Max: 0.708 	 Percentage: 25%
 Bkcons:
-	Called: 1 times 	 Total: 30.04 	 Mean: 30.044 	 Max: 30.044 	 Percentage: 25%
+	Called: 1 times 	 Total: 30.05 	 Mean: 30.046 	 Max: 30.046 	 Percentage: 20%
 Combine:
-	Called: 1 times 	 Total: 10.22 	 Mean: 10.217 	 Max: 10.217 	 Percentage: 8%
+	Called: 1 times 	 Total: 24.96 	 Mean: 24.961 	 Max: 24.961 	 Percentage: 16%
 Solve_Encoding:
-	Called: 1 times 	 Total: 10.20 	 Mean: 10.205 	 Max: 10.205 	 Percentage: 8%
+	Called: 2 times 	 Total: 24.78 	 Mean: 12.390 	 Max: 12.462 	 Percentage: 16%
 Find Mucs:
-	Called: 21243 times 	 Total: 10.00 	 Mean: 0.000 	 Max: 0.068 	 Percentage: 8%
+	Called: 21243 times 	 Total: 9.85 	 Mean: 0.000 	 Max: 0.102 	 Percentage: 6%
 Generate:
-	Called: 25793 times 	 Total: 6.62 	 Mean: 0.000 	 Max: 0.079 	 Percentage: 5%
+	Called: 25793 times 	 Total: 7.41 	 Mean: 0.000 	 Max: 0.081 	 Percentage: 5%
 Constrain:
-	Called: 25792 times 	 Total: 3.36 	 Mean: 0.000 	 Max: 0.092 	 Percentage: 2%
+	Called: 25792 times 	 Total: 3.29 	 Mean: 0.000 	 Max: 0.051 	 Percentage: 2%
 Cons_Other:
-	Called: 25792 times 	 Total: 2.47 	 Mean: 0.000 	 Max: 0.073 	 Percentage: 2%
+	Called: 25792 times 	 Total: 2.47 	 Mean: 0.000 	 Max: 0.051 	 Percentage: 1%
 Recalls:
-	Called: 1 times 	 Total: 2.41 	 Mean: 2.408 	 Max: 2.408 	 Percentage: 2%
+	Called: 1 times 	 Total: 2.32 	 Mean: 2.320 	 Max: 2.320 	 Percentage: 1%
 Load Data:
-	Called: 1 times 	 Total: 1.30 	 Mean: 1.298 	 Max: 1.298 	 Percentage: 1%
-Find Most General Subsumed/Covers_Too_Few:
-	Called: 2064 times 	 Total: 0.85 	 Mean: 0.000 	 Max: 0.121 	 Percentage: 0%
+	Called: 1 times 	 Total: 1.32 	 Mean: 1.318 	 Max: 1.318 	 Percentage: 0%
 Manager:
-	Called: 5 times 	 Total: 0.64 	 Mean: 0.129 	 Max: 0.510 	 Percentage: 0%
+	Called: 6 times 	 Total: 1.14 	 Mean: 0.190 	 Max: 0.512 	 Percentage: 0%
+Find Most General Subsumed/Covers_Too_Few:
+	Called: 2067 times 	 Total: 0.87 	 Mean: 0.000 	 Max: 0.132 	 Percentage: 0%
 Spec:
-	Called: 17593 times 	 Total: 0.38 	 Mean: 0.000 	 Max: 0.092 	 Percentage: 0%
+	Called: 17593 times 	 Total: 0.30 	 Mean: 0.000 	 Max: 0.001 	 Percentage: 0%
 Unsat:
-	Called: 5843 times 	 Total: 0.23 	 Mean: 0.000 	 Max: 0.001 	 Percentage: 0%
+	Called: 5843 times 	 Total: 0.22 	 Mean: 0.000 	 Max: 0.001 	 Percentage: 0%
 Some More Constraints:
-	Called: 25792 times 	 Total: 0.16 	 Mean: 0.000 	 Max: 0.114 	 Percentage: 0%
+	Called: 25792 times 	 Total: 0.16 	 Mean: 0.000 	 Max: 0.110 	 Percentage: 0%
 Init:
-	Called: 2 times 	 Total: 0.12 	 Mean: 0.062 	 Max: 0.124 	 Percentage: 0%
+	Called: 2 times 	 Total: 0.12 	 Mean: 0.062 	 Max: 0.125 	 Percentage: 0%
 Banish:
 	Called: 2356 times 	 Total: 0.06 	 Mean: 0.000 	 Max: 0.001 	 Percentage: 0%
 Adding Constraints:
 	Called: 25792 times 	 Total: 0.05 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
 Check_Add_To_Combiner:
 	Called: 25792 times 	 Total: 0.04 	 Mean: 0.000 	 Max: 0.001 	 Percentage: 0%
-Janus_Clear:
-	Called: 5 times 	 Total: 0.03 	 Mean: 0.005 	 Max: 0.007 	 Percentage: 0%
 Check Subsumed And Covers_Too_Few:
-	Called: 2193 times 	 Total: 0.02 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
+	Called: 2193 times 	 Total: 0.03 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
+Janus_Clear:
+	Called: 5 times 	 Total: 0.03 	 Mean: 0.006 	 Max: 0.008 	 Percentage: 0%
 Update_Prog_Index:
-	Called: 1 times 	 Total: 0.01 	 Mean: 0.007 	 Max: 0.007 	 Percentage: 0%
+	Called: 2 times 	 Total: 0.01 	 Mean: 0.006 	 Max: 0.007 	 Percentage: 0%
 Check Backtrack:
-	Called: 1 times 	 Total: 0.01 	 Mean: 0.006 	 Max: 0.006 	 Percentage: 0%
+	Called: 2 times 	 Total: 0.01 	 Mean: 0.005 	 Max: 0.006 	 Percentage: 0%
 Build_Encoding:
-	Called: 1 times 	 Total: 0.00 	 Mean: 0.003 	 Max: 0.003 	 Percentage: 0%
+	Called: 2 times 	 Total: 0.00 	 Mean: 0.002 	 Max: 0.003 	 Percentage: 0%
 Subsumed_By_Two_Consistent:
-	Called: 135 times 	 Total: 0.00 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
+	Called: 132 times 	 Total: 0.00 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
 Find_Pointless_Relations:
 	Called: 1 times 	 Total: 0.00 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
-Total operation time: 117.43s
-Total execution time: 108.37s
-[uwrmaxsat, rc2, ./cgss2]
+Total operation time: 146.95s
+Total execution time: 123.45s
+[rc2, uwrmaxsat, ./cgss2, rc2, ./cgss2, uwrmaxsat]

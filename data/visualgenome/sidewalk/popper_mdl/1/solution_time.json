@@ -1,1 +1,1 @@
-{"33.806934708": "", "33.990929458000004": "sidewalk_(V0):- gray(V0).", "34.167716083": "sidewalk_(V0):- on(V1,V0)."}
+{"33.859006916": "", "34.047220583": "sidewalk_(V0):- gray(V0).", "34.230848916": "sidewalk_(V0):- on(V1,V0).", "59.371631375": "sidewalk_(V0):- near(V1,V0).\nsidewalk_(V0):- above(V1,V0).\nsidewalk_(V0):- walking_on(V1,V0).\nsidewalk_(V0):- to_the_left_of(V0,V1),car(V1).\nsidewalk_(V0):- to_the_right_of(V2,V1),on(V2,V0)."}

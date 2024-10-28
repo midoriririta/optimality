@@ -1,52 +1,56 @@
 chair_(V0):- wood(V0).
-% accuracy: 98.35083834774079
-% balanced accuracy: 56.585359591014196
-% mcc: 0.08672575758486312
-% conf_matrix: [136, 811, 171320, 2064]
-% learning time: 73.635321458
-% program size: 2
-% stats: Best_prog_score: (9, 41, 50, 0, 2)
+chair_(V0):- to_the_left_of(V0,V1),brown(V1).
+chair_(V0):- on(V2,V1),to_the_left_of(V0,V1).
+chair_(V0):- to_the_left_of(V0,V2),to_the_right_of(V2,V1),blue(V1).
+chair_(V0):- to_the_right_of(V0,V2),to_the_right_of(V1,V2),brown(V1).
+% accuracy: 80.78712334581915
+% balanced accuracy: 61.145569738667724
+% mcc: 0.041666592928666514
+% conf_matrix: [391, 556, 140446, 32938]
+% learning time: 75.203302042
+% program size: 16
+% stats: Best_prog_score: (37, 13, 47, 3, 16)
 Last combine reached: True
 Terminated: True
 Num. programs: 11964
 Bkcons:
-	Called: 1 times 	 Total: 30.05 	 Mean: 30.048 	 Max: 30.048 	 Percentage: 35%
+	Called: 1 times 	 Total: 30.05 	 Mean: 30.047 	 Max: 30.047 	 Percentage: 34%
 Test:
-	Called: 11964 times 	 Total: 14.74 	 Mean: 0.001 	 Max: 0.157 	 Percentage: 17%
+	Called: 11964 times 	 Total: 14.98 	 Mean: 0.001 	 Max: 0.133 	 Percentage: 17%
 Combine:
-	Called: 1 times 	 Total: 10.30 	 Mean: 10.301 	 Max: 10.301 	 Percentage: 12%
+	Called: 1 times 	 Total: 11.50 	 Mean: 11.504 	 Max: 11.504 	 Percentage: 13%
 Solve_Encoding:
-	Called: 1 times 	 Total: 10.30 	 Mean: 10.298 	 Max: 10.298 	 Percentage: 12%
+	Called: 1 times 	 Total: 11.43 	 Mean: 11.429 	 Max: 11.429 	 Percentage: 13%
 Find Mucs:
-	Called: 11455 times 	 Total: 8.41 	 Mean: 0.001 	 Max: 0.047 	 Percentage: 10%
+	Called: 11455 times 	 Total: 8.32 	 Mean: 0.001 	 Max: 0.051 	 Percentage: 9%
 Generate:
-	Called: 11965 times 	 Total: 3.27 	 Mean: 0.000 	 Max: 0.028 	 Percentage: 3%
+	Called: 11965 times 	 Total: 3.34 	 Mean: 0.000 	 Max: 0.020 	 Percentage: 3%
 Recalls:
-	Called: 1 times 	 Total: 2.34 	 Mean: 2.336 	 Max: 2.336 	 Percentage: 2%
+	Called: 1 times 	 Total: 2.33 	 Mean: 2.330 	 Max: 2.330 	 Percentage: 2%
 Constrain:
-	Called: 11964 times 	 Total: 1.45 	 Mean: 0.000 	 Max: 0.017 	 Percentage: 1%
+	Called: 11964 times 	 Total: 1.43 	 Mean: 0.000 	 Max: 0.042 	 Percentage: 1%
 Load Data:
-	Called: 1 times 	 Total: 1.35 	 Mean: 1.355 	 Max: 1.355 	 Percentage: 1%
+	Called: 1 times 	 Total: 1.35 	 Mean: 1.349 	 Max: 1.349 	 Percentage: 1%
 Cons_Other:
-	Called: 11964 times 	 Total: 1.07 	 Mean: 0.000 	 Max: 0.001 	 Percentage: 1%
+	Called: 11964 times 	 Total: 1.02 	 Mean: 0.000 	 Max: 0.001 	 Percentage: 1%
 Manager:
-	Called: 3 times 	 Total: 0.26 	 Mean: 0.086 	 Max: 0.237 	 Percentage: 0%
+	Called: 4 times 	 Total: 0.49 	 Mean: 0.123 	 Max: 0.244 	 Percentage: 0%
 Spec:
-	Called: 9567 times 	 Total: 0.16 	 Mean: 0.000 	 Max: 0.001 	 Percentage: 0%
+	Called: 9567 times 	 Total: 0.20 	 Mean: 0.000 	 Max: 0.042 	 Percentage: 0%
 Init:
-	Called: 2 times 	 Total: 0.15 	 Mean: 0.073 	 Max: 0.146 	 Percentage: 0%
+	Called: 2 times 	 Total: 0.13 	 Mean: 0.063 	 Max: 0.126 	 Percentage: 0%
 Unsat:
-	Called: 2014 times 	 Total: 0.10 	 Mean: 0.000 	 Max: 0.017 	 Percentage: 0%
+	Called: 2014 times 	 Total: 0.10 	 Mean: 0.000 	 Max: 0.020 	 Percentage: 0%
 Adding Constraints:
 	Called: 11964 times 	 Total: 0.03 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
-Some More Constraints:
-	Called: 11964 times 	 Total: 0.02 	 Mean: 0.000 	 Max: 0.012 	 Percentage: 0%
 Find Most General Subsumed/Covers_Too_Few:
 	Called: 62 times 	 Total: 0.01 	 Mean: 0.000 	 Max: 0.001 	 Percentage: 0%
+Some More Constraints:
+	Called: 11964 times 	 Total: 0.01 	 Mean: 0.000 	 Max: 0.007 	 Percentage: 0%
 Check_Add_To_Combiner:
 	Called: 11964 times 	 Total: 0.01 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
 Banish:
-	Called: 420 times 	 Total: 0.01 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
+	Called: 420 times 	 Total: 0.01 	 Mean: 0.000 	 Max: 0.001 	 Percentage: 0%
 Janus_Clear:
 	Called: 2 times 	 Total: 0.01 	 Mean: 0.003 	 Max: 0.003 	 Percentage: 0%
 Check Subsumed And Covers_Too_Few:
@@ -54,13 +58,13 @@ Check Subsumed And Covers_Too_Few:
 Build_Encoding:
 	Called: 1 times 	 Total: 0.00 	 Mean: 0.001 	 Max: 0.001 	 Percentage: 0%
 Update_Prog_Index:
-	Called: 1 times 	 Total: 0.00 	 Mean: 0.001 	 Max: 0.001 	 Percentage: 0%
+	Called: 1 times 	 Total: 0.00 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
 Check Backtrack:
 	Called: 1 times 	 Total: 0.00 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
 Subsumed_By_Two_Consistent:
 	Called: 26 times 	 Total: 0.00 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
 Find_Pointless_Relations:
 	Called: 1 times 	 Total: 0.00 	 Mean: 0.000 	 Max: 0.000 	 Percentage: 0%
-Total operation time: 84.04s
-Total execution time: 74.17s
-[rc2, uwrmaxsat, ./cgss2]
+Total operation time: 86.74s
+Total execution time: 75.72s
+[rc2, ./cgss2, uwrmaxsat]

@@ -1,1 +1,1 @@
-{"33.763767666": "", "33.949886833": "ear_(V0):- gray(V0).", "34.055056541": "ear_(V0):- pointy(V0).", "35.891244125": "ear_(V0):- to_the_left_of(V1,V0),to_the_right_of(V2,V1),eye(V2)."}
+{"33.885749209000004": "", "34.074026542000006": "ear_(V0):- gray(V0).", "34.192992417": "ear_(V0):- pointy(V0).", "36.233988667000006": "ear_(V0):- to_the_left_of(V1,V0),to_the_right_of(V2,V1),eye(V2).", "51.586029": "ear_(V0):- gray(V0).\near_(V0):- to_the_left_of(V1,V0),to_the_right_of(V2,V1),eye(V2).\near_(V0):- to_the_right_of(V1,V0),to_the_right_of(V1,V2),head(V2)."}
