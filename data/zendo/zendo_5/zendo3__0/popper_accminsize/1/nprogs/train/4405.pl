@@ -1,0 +1,5 @@
+zendo(V0):- piece(V0,V1),contact(V1,V2),rhs(V2).
+zendo(V0):- piece(V0,V1),red(V1),contact(V1,V2),red(V2).
+zendo(V0):- large(V3),piece(V0,V1),upright(V1),contact(V1,V2),size(V2,V3).
+zendo(V0):- medium(V2),piece(V0,V1),size(V1,V2),coord2(V1,V2),coord1(V1,V2).
+accuracy: 89.5

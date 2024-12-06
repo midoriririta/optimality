@@ -1,0 +1,1 @@
+{"2.243114207999998": "", "2.557149374999998": "zendo(V0):- piece(V0,V1),blue(V1).", "2.582632541999999": "zendo(V0):- piece(V0,V1),lhs(V1).", "2.621648916999998": "zendo(V0):- piece(V0,V1),contact(V1,V2).", "353.488234917": "zendo(V0):- piece(V0,V1),contact(V1,V2).\nzendo(V0):- small(V1),piece(V0,V3),blue(V3),lhs(V3),piece(V0,V2),size(V2,V1)."}

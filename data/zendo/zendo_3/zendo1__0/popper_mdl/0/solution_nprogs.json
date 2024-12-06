@@ -1,0 +1,1 @@
+{"0": "", "3": "zendo(V0):- piece(V0,V1),red(V1).", "13": "zendo(V0):- piece(V0,V1),contact(V1,V2).", "41": "zendo(V0):- piece(V0,V1),contact(V1,V2),red(V2).", "43": "zendo(V0):- piece(V0,V1),contact(V1,V2),blue(V2)."}
