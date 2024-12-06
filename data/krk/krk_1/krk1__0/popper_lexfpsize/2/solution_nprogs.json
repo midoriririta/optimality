@@ -1,0 +1,1 @@
+{"0": "", "215": "f(V0):- rook(V1),one(V6),distance(V3,V5,V6),cell(V0,V3,V2,V1),cell(V0,V5,V2,V4)."}

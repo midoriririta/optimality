@@ -1,0 +1,1 @@
+{"0": "", "8": "f(V0):- black(V3),cell(V0,V2,V3,V1).", "43": "f(V0):- white(V1),rook(V2),cell(V0,V3,V1,V2).", "44": "f(V0):- king(V2),white(V1),cell(V0,V3,V1,V2).", "69": "f(V0):- one(V6),distance(V3,V5,V6),cell(V0,V3,V4,V1),cell(V0,V5,V4,V2).", "200": "f(V0):- king(V6),one(V2),distance(V3,V5,V2),cell(V0,V5,V4,V6),cell(V0,V3,V4,V1)."}

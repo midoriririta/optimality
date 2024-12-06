@@ -1,0 +1,1 @@
+{"0": "", "2": "f(V0):- rook(V3),white(V1),cell(V0,V2,V1,V3).", "6": "f(V0):- king(V3),white(V1),cell(V0,V2,V1,V3).", "7": "f(V0):- king(V3),black(V1),cell(V0,V2,V1,V3).", "73": "f(V0):- black(V2),white(V5),cell(V0,V1,V2,V4),cell(V0,V3,V5,V4)."}

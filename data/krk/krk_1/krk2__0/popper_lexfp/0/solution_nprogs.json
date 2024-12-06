@@ -1,0 +1,1 @@
+{"0": "", "655": "f(V0):- king(V6),rook(V3),black(V5),white(V2),cell(V0,V4,V5,V6),cell(V0,V1,V2,V3),nextfile(V1,V4).", "656": "f(V0):- king(V6),rook(V3),black(V5),white(V2),cell(V0,V4,V5,V6),nextrank(V1,V4),cell(V0,V1,V2,V3).", "880": "f(V0):- king(V6),white(V1),rook(V2),cell(V0,V3,V1,V2),black(V5),cell(V0,V4,V5,V6)."}

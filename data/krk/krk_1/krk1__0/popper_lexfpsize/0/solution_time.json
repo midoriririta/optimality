@@ -1,0 +1,1 @@
+{"31.041637457999997": "", "33.485227125": "f(V0):- one(V2),distance(V4,V6,V2),cell(V0,V4,V3,V1),cell(V0,V6,V5,V1).", "33.55670375": "f(V0):- one(V3),distance(V4,V6,V3),cell(V0,V4,V5,V2),cell(V0,V6,V5,V1)."}

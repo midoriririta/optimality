@@ -1,0 +1,2 @@
+f(V0):- one(V4),distance(V1,V5,V4),cell(V0,V5,V3,V2),cell(V0,V1,V3,V6).
+accuracy: 85.0
