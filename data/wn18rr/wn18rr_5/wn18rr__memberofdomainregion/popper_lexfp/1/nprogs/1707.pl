@@ -1,0 +1,2 @@
+memberofdomainregion(V0,V1):- derivationallyrelatedform(V1,V3),derivationallyrelatedform(V3,V1),derivationallyrelatedform(V1,V2),derivationallyrelatedform(V2,V1),memberofdomainusage(V0,V4).
+accuracy: 51.666666666666664

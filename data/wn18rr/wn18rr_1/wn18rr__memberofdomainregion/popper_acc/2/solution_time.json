@@ -1,0 +1,1 @@
+{"48.70565970899999": "", "49.40119866699999": "memberofdomainregion(V0,V1):- haspart(V0,V1).", "97.018742959": "memberofdomainregion(V0,V1):- haspart(V0,V1).\nmemberofdomainregion(V0,V1):- haspart(V1,V0).\nmemberofdomainregion(V0,V1):- instancehypernym(V1,V0)."}

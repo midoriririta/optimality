@@ -1,0 +1,1 @@
+{"45.962775625": "", "46.273365542": "verbgroup(V0,V1):- hypernym(V0,V1).", "78.312089167": "verbgroup(V0,V1):- hypernym(V0,V1).\nverbgroup(V0,V1):- hypernym(V1,V0).\nverbgroup(V0,V1):- alsosee(V0,V1).\nverbgroup(V0,V1):- alsosee(V1,V0)."}

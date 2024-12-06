@@ -1,0 +1,16 @@
+memberofdomainregion(V0,V1):- membermeronym(V2,V1),memberofdomainusage(V0,V3).
+memberofdomainregion(V0,V1):- instancehypernym(V1,V2),instancehypernym(V0,V3).
+memberofdomainregion(V0,V1):- memberofdomainusage(V2,V1),instancehypernym(V0,V3).
+memberofdomainregion(V0,V1):- instancehypernym(V0,V3),instancehypernym(V2,V1).
+memberofdomainregion(V0,V1):- haspart(V2,V0),haspart(V4,V1),derivationallyrelatedform(V4,V3).
+memberofdomainregion(V0,V1):- instancehypernym(V0,V2),haspart(V4,V1),haspart(V0,V3).
+memberofdomainregion(V0,V1):- instancehypernym(V0,V2),derivationallyrelatedform(V0,V3),membermeronym(V1,V4).
+memberofdomainregion(V0,V1):- instancehypernym(V1,V3),haspart(V4,V0),instancehypernym(V4,V2).
+memberofdomainregion(V0,V1):- derivationallyrelatedform(V1,V2),haspart(V0,V4),membermeronym(V4,V3).
+memberofdomainregion(V0,V1):- hypernym(V1,V2),haspart(V0,V4),membermeronym(V4,V3).
+memberofdomainregion(V0,V1):- instancehypernym(V0,V3),haspart(V0,V4),hypernym(V2,V1).
+memberofdomainregion(V0,V1):- synsetdomaintopicof(V1,V2),haspart(V0,V4),instancehypernym(V4,V3).
+memberofdomainregion(V0,V1):- hypernym(V1,V2),haspart(V0,V4),membermeronym(V0,V3).
+memberofdomainregion(V0,V1):- hypernym(V1,V3),instancehypernym(V0,V2),haspart(V0,V4),instancehypernym(V4,V2).
+memberofdomainregion(V0,V1):- hypernym(V1,V3),instancehypernym(V0,V2),haspart(V4,V0),haspart(V4,V2).
+accuracy: 97.5

@@ -1,0 +1,15 @@
+verbgroup(V0,V1):- hypernym(V1,V2),synsetdomaintopicof(V0,V3).
+verbgroup(V0,V1):- hypernym(V0,V3),synsetdomaintopicof(V1,V2).
+verbgroup(V0,V1):- hypernym(V0,V3),hypernym(V2,V1).
+verbgroup(V0,V1):- derivationallyrelatedform(V0,V3),derivationallyrelatedform(V1,V2).
+verbgroup(V0,V1):- hypernym(V3,V1),hypernym(V2,V0).
+verbgroup(V0,V1):- hypernym(V1,V3),hypernym(V2,V0).
+verbgroup(V0,V1):- hypernym(V0,V3),alsosee(V1,V2).
+verbgroup(V0,V1):- hypernym(V0,V3),derivationallyrelatedform(V1,V2).
+verbgroup(V0,V1):- hypernym(V0,V3),hypernym(V1,V2).
+verbgroup(V0,V1):- derivationallyrelatedform(V2,V1),alsosee(V0,V3).
+verbgroup(V0,V1):- hypernym(V1,V3),alsosee(V2,V0).
+verbgroup(V0,V1):- hypernym(V1,V2),derivationallyrelatedform(V0,V3).
+verbgroup(V0,V1):- hypernym(V0,V3),alsosee(V2,V1).
+verbgroup(V0,V1):- derivationallyrelatedform(V2,V0),derivationallyrelatedform(V2,V1).
+accuracy: 54.26829268292683

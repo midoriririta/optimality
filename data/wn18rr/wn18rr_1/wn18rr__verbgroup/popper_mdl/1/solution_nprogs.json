@@ -1,0 +1,1 @@
+{"0": "", "15": "verbgroup(V0,V1):- hypernym(V0,V1).", "20": "verbgroup(V0,V1):- hypernym(V0,V1).\nverbgroup(V0,V1):- hypernym(V1,V0)."}
