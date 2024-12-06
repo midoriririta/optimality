@@ -1,0 +1,1 @@
+{"0": "", "1": "out(V0,V1,V2):- in(V0,V1,V2).", "23": "out(V0,V1,V2):- in(V0,V1,V2),v5(V2).", "95": "out(V0,V1,V2):- in(V0,V1,V2),c8(V1).\nout(V0,V1,V2):- in(V0,V1,V2),c7(V1).\nout(V0,V1,V2):- in(V0,V1,V2),v8(V2).\nout(V0,V1,V2):- in(V0,V1,V2),v5(V2)."}
